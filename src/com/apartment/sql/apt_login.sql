@@ -1,0 +1,8 @@
+CREATE TABLE `apt_login` (
+  `LOGIN_NAME` varchar(20) NOT NULL,
+  `PASSWORD` varchar(20) NOT NULL,
+  `ROLE` varchar(20) NOT NULL,
+  `TENANT_ID` int(9) DEFAULT NULL,
+  `ADMIN_ID` int(9) DEFAULT NULL,
+  PRIMARY KEY (`LOGIN_NAME`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
